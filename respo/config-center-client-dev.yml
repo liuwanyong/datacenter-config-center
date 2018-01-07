@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: datacenter-config-client
+  cloud:
+    config:
+      uri: http://localhost:9401/
+      profile: dev
+      label: master
+      
+server:
+  port: 9501
+  
