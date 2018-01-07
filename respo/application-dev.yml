@@ -9,4 +9,5 @@ spring:
       
 server:
   port: 9501
-  
+
+foo: hello foo
